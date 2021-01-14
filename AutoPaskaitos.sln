@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoPaskaitos", "AutoPaskaitos\AutoPaskaitos.csproj", "{93A8EB86-F8AE-47E1-9691-857D5D746DC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pasibandymai", "pasibandymai", "{42CCED8F-D29F-4299-BA9B-DDCAA296AFF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01", "01\01.csproj", "{590C6A03-B120-4767-9C78-10032E522C00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93A8EB86-F8AE-47E1-9691-857D5D746DC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93A8EB86-F8AE-47E1-9691-857D5D746DC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93A8EB86-F8AE-47E1-9691-857D5D746DC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93A8EB86-F8AE-47E1-9691-857D5D746DC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{590C6A03-B120-4767-9C78-10032E522C00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{590C6A03-B120-4767-9C78-10032E522C00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{590C6A03-B120-4767-9C78-10032E522C00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{590C6A03-B120-4767-9C78-10032E522C00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{590C6A03-B120-4767-9C78-10032E522C00} = {42CCED8F-D29F-4299-BA9B-DDCAA296AFF2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9DBB7EF1-3D1B-4FDB-BFC8-C964010C8C9E}
+	EndGlobalSection
+EndGlobal

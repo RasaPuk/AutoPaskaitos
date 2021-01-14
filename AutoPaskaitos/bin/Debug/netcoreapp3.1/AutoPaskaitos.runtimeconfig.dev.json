@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Rasa\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Rasa\\.nuget\\packages"
+    ]
+  }
+}
