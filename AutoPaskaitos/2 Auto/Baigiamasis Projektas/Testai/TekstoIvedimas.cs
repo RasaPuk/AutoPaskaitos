@@ -6,6 +6,7 @@ namespace AutoPaskaitos.BaigiamasisProjektas.Testai // Autopaskaitos - projekto 
 {
     class TekstoIvedimas : Bazine
     {
+
         private IvedimoLaukuPuslapis ivedimoLaukuPuslapis;
 
         [SetUp]
