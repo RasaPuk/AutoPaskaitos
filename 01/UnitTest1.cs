@@ -1,4 +1,4 @@
-using NUnit.Framework;
+/*using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
@@ -112,3 +112,4 @@ namespace AutoPaskaitos._1Auto
         {
             IWebDriver driver = new ChromeDriver();
             driver
+*/
