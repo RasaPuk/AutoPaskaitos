@@ -14,6 +14,7 @@ namespace AutoPaskaitos.AutoDarbas.Testai
         [SetUp]
         public void PriesKiekvienaTesta()
         {
+            driver.Url = "https://zoomaistas.lt/lt/";
             zooPuslapiai = new ZooPuslapiai(driver);
         }
 

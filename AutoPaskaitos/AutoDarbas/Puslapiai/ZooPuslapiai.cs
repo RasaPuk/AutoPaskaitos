@@ -17,16 +17,6 @@ namespace AutoPaskaitos.AutoDarbas.Puslapiai
         private IWebElement NaujienlaiskioSubmitElementas => driver.FindElement(By.CssSelector("button[name='submitNewsletter']"));
         private IWebElement NaujienlaiskioPranesimoElementas => driver.FindElement(By.CssSelector(".fancybox-error"));
 
-        private void IveskTekstaIElementa(IWebElement elementas, string tekstas)
-        {
-            elementas.SendKeys(tekstas);
-        }
-        private void PaspauskElementa(IWebElement elementas)
-        {
-            elementas.Click();
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
-        }
-
         public ZooPuslapiai TikrinkArMenuMatomas()
         {
             Assert.IsTrue(MenuElementas.Displayed);

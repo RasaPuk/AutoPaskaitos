@@ -13,9 +13,9 @@ namespace AutoPaskaitos.AutoDarbas.Testai
         public void priesKiekvienaTesta()
         {
             driver = new ChromeDriver();
-            driver.Url = "https://zoomaistas.lt/lt/";
             driver.Manage().Window.Maximize();
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
+
             
         }
         [TearDown]
