@@ -2,7 +2,7 @@
 using NUnit.Framework;
 
 
-namespace AutoPaskaitos.BaigiamasisProjektas.Testai // Autopaskaitos - projekto pavadinimas
+namespace AutoPaskaitos.BaigiamasisProjektas.Testai 
 {
     class TekstoIvedimas : Bazine
     {

@@ -7,6 +7,9 @@ namespace AutoPaskaitos.BaigiamasisProjektas.Testai // Auopaskaitos - projekto p
 {
     class Bazine
     {
+
+
+        
         public IWebDriver driver;
 
         [SetUp]
